@@ -1,0 +1,8 @@
+Kokoro for Core ML, as LuceVoce uses it on the Neural Engine of a Mac, an iPhone or an iPad.
+
+The seven models in this archive are Kokoro-82M (hexgrad/Kokoro-82M, https://huggingface.co/hexgrad/Kokoro-82M,
+Apache License 2.0) converted to Core ML with laishere/kokoro-coreml
+(https://github.com/laishere/kokoro-coreml, commit 484907db6a8347a6afb6e7b86850ea2878c6a3fb, Apache License 2.0)
+and compiled with Xcode's coremlcompiler. LuceVoce's script for it: tools/kokoro_coreml/convert.sh.
+
+Licensed under the Apache License, Version 2.0: https://www.apache.org/licenses/LICENSE-2.0
