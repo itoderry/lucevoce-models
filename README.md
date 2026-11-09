@@ -25,6 +25,19 @@ Where it comes from:
   (commit 484907db6a8347a6afb6e7b86850ea2878c6a3fb, Apache License 2.0) and compiled with Xcode's coremlcompiler.
   Nothing else was changed.
 
+What the licences ask and how it is met: Apache 2.0 allows passing the model on, changed or not, also in a
+commercial product, when the licence text comes with it (`LICENSE` here, and LuceVoce ships it too), the change is
+stated (the conversion, above and in `NOTICE.txt`) and the upstream notices are kept (neither project has a NOTICE
+file of its own).
+
+Kokoro's own credits for training data that asks for one:
+
+- French voice ff_siwis: The SIWIS French Speech Synthesis Database, by Junichi Yamagishi, Pierre-Edouard Honnet,
+  Philip Garner and Alexandros Lazaridis, University of Edinburgh, Centre for Speech Technology Research
+  (https://hdl.handle.net/10283/2353), CC BY 4.0.
+- Japanese voices jf_gongitsune, jf_nezumi, jf_tebukuro and jm_kumo: readings by TNC (TV Nishi-Nippon) announcers
+  from the Koniwa corpus, tnc set (https://github.com/koniwa/koniwa), CC BY 3.0.
+
 The archive holds the network only. The voices themselves (`voices-v1.0.bin`) and the ONNX model that LuceVoce
 uses on every platform are downloaded from their own publisher,
 [thewh1teagle/kokoro-onnx](https://github.com/thewh1teagle/kokoro-onnx).
