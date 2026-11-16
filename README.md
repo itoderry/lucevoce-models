@@ -1,7 +1,8 @@
 # LuceVoce models
 
 Model files that LuceVoce, an app that reads books aloud, downloads on request. The files are attached to this
-repository's releases; the repository itself holds only this description and the licence.
+repository's releases; the repository itself holds this description, the licence, the notices (`NOTICE.txt`) and
+the credits of each release (`credits/`, the newest copy of a release's `CREDITS.md`).
 
 ## kokoro-coreml-1
 
@@ -107,7 +108,7 @@ The language files of LuceVoce's on-device translation: for each direction (Engl
 Spanish and Italian, both ways) a model (`model.<pair>.intgemm.alphas.bin.gz`), a short list
 (`lex.50.50.<pair>.s2t.bin.gz`) and a vocabulary (`vocab.<pair>.spm.gz`), copied unchanged from Mozilla's
 [firefox-translations-models](https://github.com/mozilla/firefox-translations-models), with the licence text
-(`LICENSE-MPL-2.0.txt`) and the release's `CREDITS.md`.
+(`LICENSE-MPL-2.0.txt`); its credits are in `credits/translate-1-CREDITS.md`.
 
 - Licence: Mozilla Public License 2.0 ("The model files are distributed under the MPL 2.0 license", Mozilla). The MPL
   allows passing the files on, also in a commercial product, with the licence and with the files themselves available
