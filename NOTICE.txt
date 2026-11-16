@@ -16,3 +16,26 @@ converted to ONNX, with its voices packed into one file, by thewh1teagle/kokoro-
 License, the model under the Apache License 2.0). They are copied from that release unchanged.
 
 Licensed under the Apache License, Version 2.0: https://www.apache.org/licenses/LICENSE-2.0
+
+Piper voices (release piper-1: fr_FR-mls-medium, it_IT-serena-high, es_ES-carlfm-x_low), as LuceVoce offers them for
+French, Italian and Spanish.
+
+Copied unchanged from rhasspy/piper-voices (https://huggingface.co/rhasspy/piper-voices, MIT License, Copyright (c)
+2022 Michael Hansen). fr_FR-mls-medium: trained on Multilingual LibriSpeech, French (https://openslr.org/94/, Pratap
+and others, 2020), CC BY 4.0. it_IT-serena-high: trained on serena-synthetic-it-27h by Marco Baccarani
+(https://huggingface.co/datasets/committa/serena-synthetic-it-27h), CC BY 4.0, made with Qwen3-TTS (Apache 2.0) and
+sentences adapted from Tatoeba (https://tatoeba.org, CC BY 2.0 FR). es_ES-carlfm-x_low: trained on
+carlfm01/my-speech-datasets, public domain. CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. No changes made.
+
+Whisper speech models (release whisper-ggml-1: ggml-base.bin, ggml-small.bin, ggml-medium.bin), as LuceVoce on
+Windows offers them for voice notes.
+
+OpenAI Whisper (https://github.com/openai/whisper), MIT License, Copyright (c) 2022 OpenAI, in the ggml format of
+whisper.cpp (https://github.com/ggml-org/whisper.cpp), MIT License, Copyright (c) 2023-2024 The ggml authors, copied
+unchanged from https://huggingface.co/ggerganov/whisper.cpp.
+
+Translation models (release translate-1), as LuceVoce uses them to translate on the device.
+
+Mozilla's Firefox translation models (https://github.com/mozilla/firefox-translations-models), copied unchanged,
+licensed under the Mozilla Public License 2.0: https://mozilla.org/MPL/2.0/ (the text is in the release as
+LICENSE-MPL-2.0.txt).

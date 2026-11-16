@@ -64,6 +64,59 @@ Where they come from:
 The licence's conditions are met as for the Core ML archive above (the licence text, the statement of what was
 changed, here nothing by LuceVoce, and the credits for the training data, which apply to these files too).
 
+## piper-1
+
+Release: [piper-1](https://github.com/itoderry/lucevoce-models/releases/tag/piper-1)
+
+Three Piper voices, copied unchanged from the Piper voices repository,
+[rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices) (revision e7229f7d33a10e145e109b886d661984201ac3c4,
+12 Nov 2026), each with its model card (`<voice>.MODEL_CARD`) and the release's `CREDITS.md`. Only voices trained from
+scratch on data that allows commercial use are here.
+
+| Voice | Language | Data and its licence | The voice's licence |
+|---|---|---|---|
+| `fr_FR-mls-medium` | French, 125 speakers (LuceVoce offers four) | [Multilingual LibriSpeech](https://openslr.org/94/), French (Pratap and others, 2020), CC BY 4.0 | CC BY 4.0 |
+| `it_IT-serena-high` | Italian, one synthetic voice | [serena-synthetic-it-27h](https://huggingface.co/datasets/committa/serena-synthetic-it-27h) by Marco Baccarani, CC BY 4.0: speech made with Qwen3-TTS (Apache 2.0) from sentences adapted from [Tatoeba](https://tatoeba.org) (CC BY 2.0 FR) | CC BY 4.0 |
+| `es_ES-carlfm-x_low` | Spanish, one speaker | [carlfm01/my-speech-datasets](https://github.com/carlfm01/my-speech-datasets), public domain by its author | public domain |
+
+The Piper voices repository and Piper itself are MIT (Copyright (c) 2022 Michael Hansen). What the licences ask and
+how it is met: CC BY 4.0 allows passing the voices on, also in a commercial product, with credit to the creators, a
+link to the licence and a statement of changes (none here); the credits are in `CREDITS.md`, here, and in LuceVoce's
+own notices.
+
+## whisper-ggml-1
+
+Release: [whisper-ggml-1](https://github.com/itoderry/lucevoce-models/releases/tag/whisper-ggml-1)
+
+The speech models LuceVoce on Windows offers for voice notes, to write down a note's words on the computer itself:
+`ggml-base.bin`, `ggml-small.bin` and `ggml-medium.bin`, copied unchanged from whisper.cpp's model repository,
+[ggerganov/whisper.cpp](https://huggingface.co/ggerganov/whisper.cpp) (revision 5359861c739e955e79d9a303bcbc70fb988958b1,
+13 Nov 2026), with the release's `CREDITS.md`.
+
+- The weights: [OpenAI Whisper](https://github.com/openai/whisper), MIT License, Copyright (c) 2022 OpenAI.
+- The ggml format: [whisper.cpp](https://github.com/ggml-org/whisper.cpp), MIT License, Copyright (c) 2023-2024 The
+  ggml authors.
+
+The MIT License allows passing them on, also in a commercial product, with the copyright notice and the licence.
+
+## translate-1
+
+Release: [translate-1](https://github.com/itoderry/lucevoce-models/releases/tag/translate-1)
+
+The language files of LuceVoce's on-device translation: for each direction (English with Romanian, French, German,
+Spanish and Italian, both ways) a model (`model.<pair>.intgemm.alphas.bin.gz`), a short list
+(`lex.50.50.<pair>.s2t.bin.gz`) and a vocabulary (`vocab.<pair>.spm.gz`), copied unchanged from Mozilla's
+[firefox-translations-models](https://github.com/mozilla/firefox-translations-models), with the licence text
+(`LICENSE-MPL-2.0.txt`) and the release's `CREDITS.md`.
+
+- Licence: Mozilla Public License 2.0 ("The model files are distributed under the MPL 2.0 license", Mozilla). The MPL
+  allows passing the files on, also in a commercial product, with the licence and with the files themselves available
+  in their source form: they are the source, unchanged, here and at Mozilla.
+
 ## Licence
 
-The files in the releases are licensed under the Apache License, Version 2.0 (see `LICENSE` and `NOTICE.txt`).
+Each release keeps its own licence: kokoro-coreml-1 and kokoro-onnx-1 under the Apache License, Version 2.0 (`LICENSE`
+and `NOTICE.txt`), with CC BY credits for Kokoro's training data above; piper-1 under CC BY 4.0, and public domain for
+the Spanish voice; whisper-ggml-1 under the MIT License; translate-1 under the Mozilla Public License 2.0. Every file is
+kept so that it can be part of a paid app: nothing here is under the GPL, the LGPL, or a non-commercial or
+no-derivatives licence. Each file's size and SHA-256 are in LuceVoce's source, which checks every download against them.
