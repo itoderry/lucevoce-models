@@ -25,7 +25,11 @@ Copied unchanged from rhasspy/piper-voices (https://huggingface.co/rhasspy/piper
 and others, 2020), CC BY 4.0. it_IT-serena-high: trained on serena-synthetic-it-27h by Marco Baccarani
 (https://huggingface.co/datasets/committa/serena-synthetic-it-27h), CC BY 4.0, made with Qwen3-TTS (Apache 2.0) and
 sentences adapted from Tatoeba (https://tatoeba.org, CC BY 2.0 FR). es_ES-carlfm-x_low: trained on
-carlfm01/my-speech-datasets, public domain. CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. No changes made.
+carlfm01/my-speech-datasets, public domain. CC BY 4.0: https://creativecommons.org/licenses/by/4.0/.
+uk_UA-ukrainian_tts-medium (added 19 Nov 2026, from revision 42301ec547bc2939386cf0ae9f9050ca05b1d3af): trained on the
+Lada, Mykyta and Tetiana recordings of Open Source Ukrainian Text-to-Speech datasets by Yehor Smoliakov
+(https://github.com/egorsmkv/ukrainian-tts-datasets; texts https://github.com/egorsmkv/uk-tts-dataset-text), Apache
+License 2.0 (https://www.apache.org/licenses/LICENSE-2.0); its model card names CC0 data. No changes made.
 
 Whisper speech models (release whisper-ggml-1: ggml-base.bin, ggml-small.bin, ggml-medium.bin), as LuceVoce on
 Windows offers them for voice notes.
