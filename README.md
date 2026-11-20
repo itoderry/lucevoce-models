@@ -92,6 +92,7 @@ NVIDIA, CC BY 4.0).
 | `es_ES-davefx-medium` (19 Nov 2026) | Spanish, one speaker (David in LuceVoce) | OHF-Voice/voice-datasets, CC0; fine-tuned from rdh | CC0 |
 | `es_ES-sharvard-medium` (19 Nov 2026) | Spanish, two speakers (Martín, Sara in LuceVoce) | [Sharvard corpus](https://datashare.ed.ac.uk/handle/10283/574) (Aubanel, García Lecumberri and Cooke), CC BY 3.0; fine-tuned from hifi_tts_92 | CC BY 3.0 |
 | `es_MX-ald-medium` (19 Nov 2026) | Mexican Spanish, one speaker (Aldo in LuceVoce) | [Ald Mexican Spanish speech dataset](https://huggingface.co/datasets/rmcpantoja/Ald_Mexican_Spanish_speech_dataset), the Unlicense; fine-tuned from rdh | Unlicense |
+| `pl_PL-darkman-medium`, `pl_PL-gosia-medium` (20 Nov 2026) | Polish, a male and a female voice (LuceVoce: Darek, Gosia) | [OHF voice-datasets](https://github.com/OHF-Voice/voice-datasets), CC0; fine-tuned from rdh (CC0) and hifi_tts_92 (CC BY 4.0) | CC0 (hifi_tts_92 credited) |
 | `uk_UA-ukrainian_tts-medium` (19 Nov 2026, revision 42301ec) | Ukrainian, three speakers (Lada, Mykyta, Tetiana) | [Open Source Ukrainian Text-to-Speech datasets](https://github.com/egorsmkv/ukrainian-tts-datasets) by Yehor Smoliakov, texts from [uk-tts-dataset-text](https://github.com/egorsmkv/uk-tts-dataset-text), both Apache 2.0; the model card names CC0 data ([OHF-Voice/voice-datasets](https://github.com/OHF-Voice/voice-datasets)) | Apache 2.0 (CC0 by its card) |
 
 The Piper voices repository and Piper itself are MIT (Copyright (c) 2022 Michael Hansen). What the licences ask and
