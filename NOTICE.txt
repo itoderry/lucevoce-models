@@ -63,3 +63,11 @@ Translation models (release translate-1), as LuceVoce uses them to translate on 
 Mozilla's Firefox translation models (https://github.com/mozilla/firefox-translations-models), copied unchanged,
 licensed under the Mozilla Public License 2.0: https://mozilla.org/MPL/2.0/ (the text is in the release as
 LICENSE-MPL-2.0.txt).
+
+Dictionary packs (release dict-1), as LuceVoce offers them to download: eleven wordnets converted to LuceVoce's
+dictionary format, with the Open English WordNet's definitions (2025 edition, CC BY 4.0,
+https://github.com/globalwordnet/english-wordnet) for the synsets that have none of their own. Each pack keeps its
+source's licence and credit (credits/dict-1-CREDITS.md): MultiWordNet and the Multilingual Central Repository (CC BY 3.0),
+ItalWordNet (ODC-BY), plWordNet, the Japanese Wordnet and the Chinese Open Wordnet (the WordNet licence), through the
+Open Multilingual Wordnet 2.0 (https://github.com/omwn/omw-data); and, under CC BY-SA, OpenWN-PT, the Romanian Wordnet,
+Open Dutch WordNet, OdeNet and Ukrajinet.

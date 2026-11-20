@@ -132,10 +132,25 @@ Spanish and Italian, both ways) a model (`model.<pair>.intgemm.alphas.bin.gz`), 
   allows passing the files on, also in a commercial product, with the licence and with the files themselves available
   in their source form: they are the source, unchanged, here and at Mozilla.
 
+## dict-1
+
+Release: [dict-1](https://github.com/itoderry/lucevoce-models/releases/tag/dict-1)
+
+Dictionaries in more languages, which LuceVoce offers to download in Settings > Study > Dictionaries: eleven packs made
+from wordnets (Italian twice, Spanish, Polish, Portuguese, Romanian, Dutch, Japanese, Chinese, German, Ukrainian), each
+with its licence and credit inside, made by LuceVoce's `tools/dict_build/make_packs.sh` from sources pinned by SHA-256.
+A synset without a definition of its own takes the Open English WordNet's (CC BY 4.0), marked "(English)". The sources,
+licences and changes are in `credits/dict-1-CREDITS.md`.
+
+- Licences: CC BY 3.0, ODC-BY, the WordNet licence and plWordNet's (Princeton's terms), all allowing use in a commercial
+  product with credit; and CC BY-SA for the Portuguese, Romanian, Dutch, German and Ukrainian packs, which are
+  adaptations shared under the same licence and never bundled in LuceVoce.
+
 ## Licence
 
 Each release keeps its own licence: kokoro-coreml-1 and kokoro-onnx-1 under the Apache License, Version 2.0 (`LICENSE`
 and `NOTICE.txt`), with CC BY credits for Kokoro's training data above; piper-1 under CC BY 4.0, and public domain for
-the Spanish voice; whisper-ggml-1 under the MIT License; translate-1 under the Mozilla Public License 2.0. Every file is
+the Spanish voice; whisper-ggml-1 under the MIT License; translate-1 under the Mozilla Public License 2.0; dict-1 under each source's licence
+(`credits/dict-1-CREDITS.md`). Every file is
 kept so that it can be part of a paid app: nothing here is under the GPL, the LGPL, or a non-commercial or
 no-derivatives licence. Each file's size and SHA-256 are in LuceVoce's source, which checks every download against them.
