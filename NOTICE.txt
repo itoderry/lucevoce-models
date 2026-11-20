@@ -17,8 +17,10 @@ License, the model under the Apache License 2.0). They are copied from that rele
 
 Licensed under the Apache License, Version 2.0: https://www.apache.org/licenses/LICENSE-2.0
 
-Piper voices (release piper-1: fr_FR-mls-medium, it_IT-serena-high, es_ES-carlfm-x_low), as LuceVoce offers them for
-French, Italian and Spanish.
+Piper voices (release piper-1: fr_FR-mls-medium, it_IT-serena-high, es_ES-carlfm-x_low, and since 19 Nov 2026
+ro_RO-mihai-medium, pt_BR-cadu-medium, pt_BR-jeff-medium, pt_BR-faber-medium, fr_FR-siwis-medium, it_IT-paola-medium,
+it_IT-serena-medium, es_ES-davefx-medium, es_ES-sharvard-medium, es_MX-ald-medium, uk_UA-ukrainian_tts-medium), as
+LuceVoce offers them for French, Italian, Spanish, Brazilian Portuguese, Romanian and Ukrainian.
 
 Copied unchanged from rhasspy/piper-voices (https://huggingface.co/rhasspy/piper-voices, MIT License, Copyright (c)
 2022 Michael Hansen). fr_FR-mls-medium: trained on Multilingual LibriSpeech, French (https://openslr.org/94/, Pratap
@@ -30,6 +32,17 @@ uk_UA-ukrainian_tts-medium (added 19 Nov 2026, from revision 42301ec547bc2939386
 Lada, Mykyta and Tetiana recordings of Open Source Ukrainian Text-to-Speech datasets by Yehor Smoliakov
 (https://github.com/egorsmkv/ukrainian-tts-datasets; texts https://github.com/egorsmkv/uk-tts-dataset-text), Apache
 License 2.0 (https://www.apache.org/licenses/LICENSE-2.0); its model card names CC0 data. No changes made.
+Added 19 Nov 2026 from the same revision: ro_RO-mihai-medium, pt_BR-cadu-medium, pt_BR-jeff-medium, pt_BR-faber-medium,
+it_IT-paola-medium and es_ES-davefx-medium, trained on OHF-Voice/voice-datasets (https://github.com/OHF-Voice/voice-datasets),
+CC0; fr_FR-siwis-medium, trained on the SIWIS French Speech Synthesis Database, University of Edinburgh
+(https://datashare.is.ed.ac.uk/handle/10283/2353), CC BY 4.0; it_IT-serena-medium, trained on serena-synthetic-it-27h,
+as above, CC BY 4.0; es_ES-sharvard-medium, trained on the Sharvard corpus by Vincent Aubanel, Maria Luisa Garcia
+Lecumberri and Martin Cooke (https://datashare.ed.ac.uk/handle/10283/574), CC BY 3.0
+(https://creativecommons.org/licenses/by/3.0/); es_MX-ald-medium, trained on the Ald Mexican Spanish speech dataset
+(https://huggingface.co/datasets/rmcpantoja/Ald_Mexican_Spanish_speech_dataset), the Unlicense. Several were
+fine-tuned from two base voices trained from scratch: rdh (dutch-vl-tts, https://github.com/r-dh/dutch-vl-tts, CC0)
+and hifi_tts_92 (Cori Samuel's recordings in the Hi-Fi Multi-Speaker English TTS Dataset by Evelina Bakhturina,
+Vitaly Lavrukhin, Boris Ginsburg and Yang Zhang, NVIDIA, https://www.openslr.org/109/, CC BY 4.0). No changes made.
 
 Whisper speech models (release whisper-ggml-1: ggml-base.bin, ggml-small.bin, ggml-medium.bin), as LuceVoce on
 Windows offers them for voice notes.
