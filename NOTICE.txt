@@ -28,6 +28,10 @@ and others, 2020), CC BY 4.0. it_IT-serena-high: trained on serena-synthetic-it-
 (https://huggingface.co/datasets/committa/serena-synthetic-it-27h), CC BY 4.0, made with Qwen3-TTS (Apache 2.0) and
 sentences adapted from Tatoeba (https://tatoeba.org, CC BY 2.0 FR). es_ES-carlfm-x_low: trained on
 carlfm01/my-speech-datasets, public domain. CC BY 4.0: https://creativecommons.org/licenses/by/4.0/.
+de_DE-thorsten-medium and de_DE-thorsten_emotional-medium (added 20 Nov 2026): Thorsten-Voice by Thorsten Müller
+(https://github.com/thorstenMueller/Thorsten-Voice), CC0, fine-tuned from rdh (CC0); de_DE-kerstin-medium: OHF
+voice-datasets, CC0, fine-tuned from hifi_tts_92 (CC BY 4.0); de_DE-mls-medium: trained on Multilingual LibriSpeech,
+German (https://openslr.org/94/, Pratap and others, 2020), CC BY 4.0. No changes made.
 pl_PL-darkman-medium and pl_PL-gosia-medium (added 20 Nov 2026): OHF voice-datasets
 (https://github.com/OHF-Voice/voice-datasets), CC0, fine-tuned from rdh (CC0) and hifi_tts_92 (CC BY 4.0). No changes
 made.

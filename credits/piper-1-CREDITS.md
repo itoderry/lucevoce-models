@@ -56,6 +56,16 @@ Two base models some of these voices were fine-tuned from (both trained from scr
   Licence: CC0.
 - pl_PL-gosia-medium (Polish, female; Gosia): OHF voice-datasets, CC0; fine-tuned from hifi_tts_92 (CC BY 4.0, credit
   above). Added on 20 Nov 2026.
+- de_DE-thorsten-medium (German, male; Thorsten): the Thorsten-Voice recordings by Thorsten Müller,
+  https://github.com/thorstenMueller/Thorsten-Voice, CC0; fine-tuned from rdh. Licence: CC0. Added on 20 Nov 2026.
+- de_DE-thorsten_emotional-medium (German, Thorsten in eight moods; LuceVoce offers seven): Thorsten-Voice, CC0;
+  fine-tuned from thorsten. Licence: CC0. Added on 20 Nov 2026.
+- de_DE-kerstin-medium (German, female; Kerstin): OHF voice-datasets, CC0; fine-tuned from hifi_tts_92 (CC BY 4.0,
+  credit above). Added on 20 Nov 2026.
+- de_DE-mls-medium (German, 236 readers; LuceVoce offers four, named Lena, Clara, Jonas and Felix): Multilingual
+  LibriSpeech (MLS), German, https://openslr.org/94/ (Pratap et al., 2020), CC BY 4.0, recordings from LibriVox
+  volunteers; trained from scratch. Licence: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. No changes made.
+  Added on 20 Nov 2026.
 - uk_UA-ukrainian_tts-medium (Ukrainian, three speakers: Lada, Mykyta, Tetiana; it reads letters, "phoneme_type":
   "text"): its model card names OHF voice-datasets, CC0, which holds no Ukrainian data; its speakers are the Lada,
   Mykyta and Tetiana recordings of Open Source Ukrainian Text-to-Speech datasets by Yehor Smoliakov,
