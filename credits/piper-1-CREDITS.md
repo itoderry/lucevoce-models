@@ -56,6 +56,19 @@ Two base models some of these voices were fine-tuned from (both trained from scr
   Licence: CC0.
 - pl_PL-gosia-medium (Polish, female; Gosia): OHF voice-datasets, CC0; fine-tuned from hifi_tts_92 (CC BY 4.0, credit
   above). Added on 20 Nov 2026.
+- nl_BE-rdh-medium (Flemish, male; LuceVoce calls it Ruben): dutch-vl-tts by r-dh, https://github.com/r-dh/dutch-vl-tts,
+  CC0 1.0; trained from scratch (the rdh base model itself). Licence: CC0. Added on 20 Nov 2026.
+- nl_BE-nathalie-medium (Flemish, female; Nathalie): OHF voice-datasets, CC0; fine-tuned from hifi_tts_92 (CC BY 4.0,
+  credit above). Added on 20 Nov 2026.
+- nl_BE-flemishguy-medium (Flemish, male; Wout), nl_NL-alex-medium (Alex), nl_NL-pim-medium (Pim),
+  nl_NL-ronnie-medium (Ronnie) (Dutch, male): OHF voice-datasets, CC0; fine-tuned from rdh. Licence: CC0. Added on
+  20 Nov 2026.
+- nl_NL-mls-medium (Dutch, 52 readers; LuceVoce offers four, named Sanne, Lotte, Daan and Bram): Multilingual
+  LibriSpeech (MLS), Dutch, https://openslr.org/94/ (Pratap et al., 2020), CC BY 4.0, recordings from LibriVox
+  volunteers; trained from scratch. Licence: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. No changes made.
+  Added on 20 Nov 2026.
+- cs_CZ-jirka-medium (Czech, male; Jirka) and sk_SK-lili-medium (Slovak, female; Lili): OHF voice-datasets, CC0;
+  fine-tuned from hifi_tts_92 (CC BY 4.0, credit above). Added on 20 Nov 2026.
 - de_DE-thorsten-medium (German, male; Thorsten): the Thorsten-Voice recordings by Thorsten Müller,
   https://github.com/thorstenMueller/Thorsten-Voice, CC0; fine-tuned from rdh. Licence: CC0. Added on 20 Nov 2026.
 - de_DE-thorsten_emotional-medium (German, Thorsten in eight moods; LuceVoce offers seven): Thorsten-Voice, CC0;

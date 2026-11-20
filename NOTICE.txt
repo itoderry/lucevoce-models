@@ -28,6 +28,11 @@ and others, 2020), CC BY 4.0. it_IT-serena-high: trained on serena-synthetic-it-
 (https://huggingface.co/datasets/committa/serena-synthetic-it-27h), CC BY 4.0, made with Qwen3-TTS (Apache 2.0) and
 sentences adapted from Tatoeba (https://tatoeba.org, CC BY 2.0 FR). es_ES-carlfm-x_low: trained on
 carlfm01/my-speech-datasets, public domain. CC BY 4.0: https://creativecommons.org/licenses/by/4.0/.
+nl_BE-rdh-medium (added 20 Nov 2026): dutch-vl-tts by r-dh (https://github.com/r-dh/dutch-vl-tts), CC0 1.0.
+nl_BE-nathalie-medium, nl_BE-flemishguy-medium, nl_NL-alex-medium, nl_NL-pim-medium, nl_NL-ronnie-medium,
+cs_CZ-jirka-medium and sk_SK-lili-medium (added 20 Nov 2026): OHF voice-datasets (https://github.com/OHF-Voice/voice-datasets),
+CC0, fine-tuned from rdh (CC0) or hifi_tts_92 (CC BY 4.0). nl_NL-mls-medium (added 20 Nov 2026): trained on Multilingual
+LibriSpeech, Dutch (https://openslr.org/94/, Pratap and others, 2020), CC BY 4.0. No changes made.
 de_DE-thorsten-medium and de_DE-thorsten_emotional-medium (added 20 Nov 2026): Thorsten-Voice by Thorsten Müller
 (https://github.com/thorstenMueller/Thorsten-Voice), CC0, fine-tuned from rdh (CC0); de_DE-kerstin-medium: OHF
 voice-datasets, CC0, fine-tuned from hifi_tts_92 (CC BY 4.0); de_DE-mls-medium: trained on Multilingual LibriSpeech,
