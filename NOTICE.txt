@@ -30,6 +30,10 @@ sentences adapted from Tatoeba (https://tatoeba.org, CC BY 2.0 FR). es_ES-carlfm
 carlfm01/my-speech-datasets, public domain. CC BY 4.0: https://creativecommons.org/licenses/by/4.0/.
 fi_FI-harri-medium (added 20 Nov 2026): the Finnish single-speaker speech dataset on Kaggle
 (https://www.kaggle.com/bryanpark/finnish-single-speaker-speech-dataset), CC0 by the voice's model card, fine-tuned from rdh (CC0). No changes made.
+no_NO-talesyntese-medium (added 21 Nov 2026): the NST Norwegian speech data of the Language Bank (Språkbanken) at the
+National Library of Norway (https://www.nb.no/sprakbanken/), originally made by Nordisk språkteknologi, CC0 1.0
+(catalogue entries "NST norsk diktering (22 kHz)" and its sister NST Norwegian databases, licence "CC Zero"); fine-tuned
+from a CC0 Flemish base model. No changes made.
 sv_SE-nst-medium (added 21 Nov 2026): the NST Swedish dictation speech database (22 kHz) of the Language Bank (Språkbanken)
 at the National Library of Norway (https://www.nb.no/sprakbanken/), originally made by Nordisk språkteknologi, CC0 1.0
 (catalogue entry "NST svensk diktering (22 kHz)", licence "CC Zero"); the voice was trained from scratch by KBLab at the
