@@ -69,6 +69,9 @@ Two base models some of these voices were fine-tuned from (both trained from scr
   Added on 20 Nov 2026.
 - cs_CZ-jirka-medium (Czech, male; Jirka) and sk_SK-lili-medium (Slovak, female; Lili): OHF voice-datasets, CC0;
   fine-tuned from hifi_tts_92 (CC BY 4.0, credit above). Added on 20 Nov 2026.
+- fi_FI-harri-medium (Finnish, male; Harri): the Finnish single-speaker speech dataset on Kaggle
+  (https://www.kaggle.com/bryanpark/finnish-single-speaker-speech-dataset), CC0 by the voice's model card; fine-tuned
+  from rdh (CC0). Licence: CC0. Added on 20 Nov 2026.
 - hu_HU-anna-medium (Hungarian, female; Anna) and hu_HU-berta-medium (Hungarian, female; Berta): OHF voice-datasets,
   https://github.com/OHF-Voice/voice-datasets, CC0; fine-tuned from hifi_tts_92 (CC BY 4.0, credit above). Added on
   20 Nov 2026.
