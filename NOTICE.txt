@@ -30,6 +30,9 @@ sentences adapted from Tatoeba (https://tatoeba.org, CC BY 2.0 FR). es_ES-carlfm
 carlfm01/my-speech-datasets, public domain. CC BY 4.0: https://creativecommons.org/licenses/by/4.0/.
 fi_FI-harri-medium (added 20 Nov 2026): the Finnish single-speaker speech dataset on Kaggle
 (https://www.kaggle.com/bryanpark/finnish-single-speaker-speech-dataset), CC0 by the voice's model card, fine-tuned from rdh (CC0). No changes made.
+et_EE-news-medium (added 21 Nov 2026): the Speech corpus of Estonian news sentences, University of Tartu
+(https://metashare.ut.ee/repository/browse/speech-corpus-of-estonian-news-sentences/37b7c5d6a0d411eebb4773db10791bcfb0c0cf788d2d4030bfaf2f2e6e55dd8d/),
+CC BY ("Available - Unrestricted Use" on META-SHARE), fine-tuned from hifi_tts_92 (CC BY 4.0). No changes made.
 hu_HU-anna-medium, hu_HU-berta-medium and hu_HU-imre-medium (added 20 Nov 2026): OHF voice-datasets
 (https://github.com/OHF-Voice/voice-datasets), CC0, fine-tuned from hifi_tts_92 (CC BY 4.0) or rdh (CC0). No changes made.
 nl_BE-rdh-medium (added 20 Nov 2026): dutch-vl-tts by r-dh (https://github.com/r-dh/dutch-vl-tts), CC0 1.0.

@@ -72,6 +72,11 @@ Two base models some of these voices were fine-tuned from (both trained from scr
 - fi_FI-harri-medium (Finnish, male; Harri): the Finnish single-speaker speech dataset on Kaggle
   (https://www.kaggle.com/bryanpark/finnish-single-speaker-speech-dataset), CC0 by the voice's model card; fine-tuned
   from rdh (CC0). Licence: CC0. Added on 20 Nov 2026.
+- et_EE-news-medium (Estonian, four speakers: Albert and Kalev, male; Mari and Vesta, female): the Speech corpus of Estonian
+  news sentences, University of Tartu, https://metashare.ut.ee/repository/browse/speech-corpus-of-estonian-news-sentences/37b7c5d6a0d411eebb4773db10791bcfb0c0cf788d2d4030bfaf2f2e6e55dd8d/
+  (paper: https://arxiv.org/abs/2010.02636), CC BY ("Available - Unrestricted Use" on META-SHARE); fine-tuned from
+  hifi_tts_92 (CC BY 4.0, credit above). Licence: CC BY, https://creativecommons.org/licenses/by/4.0/. No changes made.
+  Added on 21 Nov 2026.
 - hu_HU-anna-medium (Hungarian, female; Anna) and hu_HU-berta-medium (Hungarian, female; Berta): OHF voice-datasets,
   https://github.com/OHF-Voice/voice-datasets, CC0; fine-tuned from hifi_tts_92 (CC BY 4.0, credit above). Added on
   20 Nov 2026.
