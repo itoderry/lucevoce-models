@@ -69,6 +69,11 @@ Two base models some of these voices were fine-tuned from (both trained from scr
   Added on 20 Nov 2026.
 - cs_CZ-jirka-medium (Czech, male; Jirka) and sk_SK-lili-medium (Slovak, female; Lili): OHF voice-datasets, CC0;
   fine-tuned from hifi_tts_92 (CC BY 4.0, credit above). Added on 20 Nov 2026.
+- hu_HU-anna-medium (Hungarian, female; Anna) and hu_HU-berta-medium (Hungarian, female; Berta): OHF voice-datasets,
+  https://github.com/OHF-Voice/voice-datasets, CC0; fine-tuned from hifi_tts_92 (CC BY 4.0, credit above). Added on
+  20 Nov 2026.
+- hu_HU-imre-medium (Hungarian, male; Imre): OHF voice-datasets, CC0; fine-tuned from rdh. Licence: CC0. Added on
+  20 Nov 2026.
 - de_DE-thorsten-medium (German, male; Thorsten): the Thorsten-Voice recordings by Thorsten Müller,
   https://github.com/thorstenMueller/Thorsten-Voice, CC0; fine-tuned from rdh. Licence: CC0. Added on 20 Nov 2026.
 - de_DE-thorsten_emotional-medium (German, Thorsten in eight moods; LuceVoce offers seven): Thorsten-Voice, CC0;
