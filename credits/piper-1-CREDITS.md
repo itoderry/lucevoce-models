@@ -73,6 +73,11 @@ Two base models some of these voices were fine-tuned from (both trained from scr
   (https://www.kaggle.com/bryanpark/finnish-single-speaker-speech-dataset), CC0 by the voice's model card; fine-tuned
   from rdh (CC0). Licence: CC0. Added on 20 Nov 2026.
 - no_NO-talesyntese-medium (Norwegian, female; Ingrid): the NST Norwegian speech data, Språkbanken at the National Library
+- zh_CN-chaowen-medium (Chinese, male; Chaowen): the OHF-Voice voice-datasets recording of the speaker 超文 (chaowen), https://github.com/OHF-Voice/voice-datasets, CC0; fine-tuned from the hifi_tts_92 base model (Hi-Fi TTS, LibriVox reader 92, CC BY 4.0, https://www.openslr.org/109/). Licence: CC0, with the Hi-Fi TTS credit. Added on 22 Nov 2026.
+- eu_ES-antton-medium (Basque, male; Antton): the Antton dataset of the Itzune project, https://huggingface.co/datasets/itzune/antton-dataset, CC BY 4.0; fine-tuned from a CC0 Flemish base model. Licence: CC BY 4.0. Added on 22 Nov 2026.
+- eu_ES-maider-medium (Basque, female; Maider): the Maider dataset of the Itzune project, https://huggingface.co/datasets/itzune/maider-dataset, CC BY 4.0; fine-tuned from the hifi_tts_92 base model (Hi-Fi TTS, CC BY 4.0). Licence: CC BY 4.0. Added on 22 Nov 2026.
+- kk_KZ-issai-high (Kazakh, six speakers; Nurlan, Iseke, Aigerim, Raya, Dana, Aliya): the Kazakh text-to-speech corpus of the Institute of Smart Systems and Artificial Intelligence (ISSAI), Nazarbayev University, https://github.com/IS2AI/Kazakh_TTS, CC BY 4.0; trained from scratch. Licence: CC BY 4.0. Added on 22 Nov 2026.
+- ne_NP-chitwan-medium (Nepali, male; Chitwan): the OHF-Voice voice-datasets Nepali recording, https://github.com/OHF-Voice/voice-datasets, CC0; fine-tuned from a CC0 Flemish base model. Licence: CC0. Added on 22 Nov 2026.
   of Norway, https://www.nb.no/sprakbanken/ (originally made by Nordisk språkteknologi), CC0 1.0 (catalogue licence "CC Zero");
   fine-tuned from a CC0 Flemish base model. Licence: CC0. Added on 21 Nov 2026.
 - sv_SE-nst-medium (Swedish, male; Nils): the NST Swedish dictation speech database (22 kHz), Språkbanken at the National

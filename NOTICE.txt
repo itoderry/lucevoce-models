@@ -34,6 +34,10 @@ no_NO-talesyntese-medium (added 21 Nov 2026): the NST Norwegian speech data of t
 National Library of Norway (https://www.nb.no/sprakbanken/), originally made by Nordisk språkteknologi, CC0 1.0
 (catalogue entries "NST norsk diktering (22 kHz)" and its sister NST Norwegian databases, licence "CC Zero"); fine-tuned
 from a CC0 Flemish base model. No changes made.
+zh_CN-chaowen-medium (added 22 Nov 2026): the OHF-Voice voice-datasets Chinese recording (https://github.com/OHF-Voice/voice-datasets), CC0 1.0; fine-tuned from the hifi_tts_92 base model, trained on Hi-Fi TTS (LibriVox reader 92, https://www.openslr.org/109/, CC BY 4.0). No changes made.
+eu_ES-antton-medium and eu_ES-maider-medium (added 22 Nov 2026): the Antton and Maider datasets of the Itzune project (https://huggingface.co/datasets/itzune/antton-dataset, https://huggingface.co/datasets/itzune/maider-dataset), CC BY 4.0; antton fine-tuned from a CC0 Flemish base model, maider from hifi_tts_92 (Hi-Fi TTS, CC BY 4.0). No changes made.
+kk_KZ-issai-high (added 22 Nov 2026): the ISSAI Kazakh text-to-speech corpus (https://github.com/IS2AI/Kazakh_TTS), CC BY 4.0, trained from scratch. No changes made.
+ne_NP-chitwan-medium (added 22 Nov 2026): the OHF-Voice voice-datasets Nepali recording (https://github.com/OHF-Voice/voice-datasets), CC0 1.0; fine-tuned from a CC0 Flemish base model. No changes made.
 sv_SE-nst-medium (added 21 Nov 2026): the NST Swedish dictation speech database (22 kHz) of the Language Bank (Språkbanken)
 at the National Library of Norway (https://www.nb.no/sprakbanken/), originally made by Nordisk språkteknologi, CC0 1.0
 (catalogue entry "NST svensk diktering (22 kHz)", licence "CC Zero"); the voice was trained from scratch by KBLab at the
