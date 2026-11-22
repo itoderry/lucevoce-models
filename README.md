@@ -36,8 +36,8 @@ Kokoro's own credits for training data that asks for one:
 - French voice ff_siwis: The SIWIS French Speech Synthesis Database, by Junichi Yamagishi, Pierre-Edouard Honnet,
   Philip Garner and Alexandros Lazaridis, University of Edinburgh, Centre for Speech Technology Research
   (https://hdl.handle.net/10283/2353), CC BY 4.0.
-- Japanese voices jf_gongitsune, jf_nezumi, jf_tebukuro and jm_kumo: readings by TNC (TV Nishi-Nippon) announcers
-  from the Koniwa corpus, tnc set (https://github.com/koniwa/koniwa), CC BY 3.0.
+- The Japanese, Chinese and Hindi voices of the original file are not in LuceVoce's `voices-v1.0.bin` since 22 Nov 2026
+  (their training data is not listed): 37 of the 54 voices remain.
 
 The archive holds the network only. The voices themselves (`voices-v1.0.bin`) and the ONNX model that LuceVoce
 uses on every platform are in the release `kokoro-onnx-1`, below.
@@ -51,7 +51,7 @@ The two files LuceVoce's Kokoro voices need on every platform, read with ONNX Ru
 | File | What it is | Size | SHA-256 |
 |---|---|---|---|
 | `kokoro-v1.0.onnx` | the Kokoro-82M voice model as an ONNX model | 325,532,387 bytes | `7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5` |
-| `voices-v1.0.bin` | the voices (one style table for each voice) | 28,214,398 bytes | `bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d` |
+| `voices-v1.0.bin` | the voices (one style table for each voice) | 19,331,328 bytes | `6acfb346b930bc73863d6ce6b33228dc02395e239e20a0cd0e9209d1a6dbaa11` |
 
 Where they come from:
 
@@ -82,7 +82,6 @@ NVIDIA, CC BY 4.0).
 |---|---|---|---|
 | `fr_FR-mls-medium` | French, 125 speakers (LuceVoce offers four) | [Multilingual LibriSpeech](https://openslr.org/94/), French (Pratap and others, 2020), CC BY 4.0 | CC BY 4.0 |
 | `it_IT-serena-high` | Italian, one synthetic voice | [serena-synthetic-it-27h](https://huggingface.co/datasets/committa/serena-synthetic-it-27h) by Marco Baccarani, CC BY 4.0: speech made with Qwen3-TTS (Apache 2.0) from sentences adapted from [Tatoeba](https://tatoeba.org) (CC BY 2.0 FR) | CC BY 4.0 |
-| `es_ES-carlfm-x_low` | Spanish, one speaker | [carlfm01/my-speech-datasets](https://github.com/carlfm01/my-speech-datasets), public domain by its author | public domain |
 | `ro_RO-mihai-medium` (19 Nov 2026) | Romanian, one speaker (Mihai) | [OHF-Voice/voice-datasets](https://github.com/OHF-Voice/voice-datasets), CC0; fine-tuned from rdh | CC0 |
 | `pt_BR-cadu-medium`, `pt_BR-jeff-medium` (19 Nov 2026) | Brazilian Portuguese, one speaker each (Cadu, Jeff) | OHF-Voice/voice-datasets, CC0; fine-tuned from rdh | CC0 |
 | `pt_BR-faber-medium` (19 Nov 2026) | Brazilian Portuguese, one speaker (Faber) | OHF-Voice/voice-datasets, CC0; fine-tuned from hifi_tts_92 | CC0 data, CC BY 4.0 base |

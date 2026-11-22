@@ -26,12 +26,6 @@ Two base models some of these voices were fine-tuned from (both trained from scr
   (https://tatoeba.org), CC BY 2.0 FR.
 - Licence: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. No changes made.
 
-## es_ES-carlfm-x_low (Spanish, male)
-
-- Model: Piper voice "carlfm (x_low)" from rhasspy/piper-voices, trained from scratch.
-- Data: carlfm01 my-speech-datasets, https://github.com/carlfm01/my-speech-datasets, public domain.
-- Licence: public domain. No changes made.
-
 ## Added on 19 Nov 2026
 
 - ro_RO-mihai-medium (Romanian, male): OHF voice-datasets, https://github.com/OHF-Voice/voice-datasets, CC0;
