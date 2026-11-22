@@ -99,3 +99,7 @@ WikDict: (https://www.wikdict.com) bilingual dictionaries of English with French
 Polish, Dutch, Japanese and Chinese, in both directions (eighteen packs, dict-wd-*), converted to LuceVoce's dictionary format.
 The data is from Wiktionary through DBnary, offered by WikDict under Creative Commons BY-SA; the packs are share-alike
 and only ever downloaded.
+
+ONNX Runtime (release deps-1: onnxruntime-win-x64-1.31.1.zip), a build dependency of LuceVoce kept because its
+original release page stopped answering. MIT License, Copyright (c) Microsoft Corporation
+(https://opensource.org/license/mit); the archive carries its own LICENSE and ThirdPartyNotices.txt. Copied unchanged.

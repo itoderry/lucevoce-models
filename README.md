@@ -159,6 +159,23 @@ licences and changes are in `credits/dict-1-CREDITS.md`.
   product with credit; and CC BY-SA for the Portuguese, Romanian, Dutch, German and Ukrainian packs, which are
   adaptations shared under the same licence and never bundled in LuceVoce.
 
+## deps-1
+
+Release: [deps-1](https://github.com/itoderry/lucevoce-models/releases/tag/deps-1)
+
+Build dependencies of LuceVoce whose original download pages stopped answering, kept byte for byte so the app can
+still be built (22 Nov 2026). LuceVoce's `fetch_deps.ps1` tries the original address first, then this copy, and
+checks the SHA-256 either way.
+
+| File | What it is | Size | SHA-256 |
+|---|---|---|---|
+| `onnxruntime-win-x64-1.31.1.zip` | ONNX Runtime 1.31.1 for Windows x64, as published in github.com/microsoft/onnxruntime's release v1.31.1 (that repository answered 404 on 22 Nov 2026) | 82,929,944 bytes | `5869e26bb25314375f2d5ef1877e3ea06b1543d6c710e6e4a1ec2f7177ab4b2c` |
+
+- Licence: MIT License, Copyright (c) Microsoft Corporation; `LICENSE` and `ThirdPartyNotices.txt` are inside the
+  archive. Nothing was changed.
+- The macOS arm64 archive (1.31.1) and the iOS pod archive (1.30.0, whose host download.onnxruntime.ai did not answer
+  on 22 Nov 2026 either) are to be added from the Mac, which has them.
+
 ## Licence
 
 Each release keeps its own licence: kokoro-coreml-1 and kokoro-onnx-1 under the Apache License, Version 2.0 (`LICENSE`
