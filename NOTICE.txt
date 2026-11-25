@@ -104,6 +104,15 @@ Moby Thesaurus (dict-en-moby, added 24 Nov 2026): Moby Thesaurus II by Grady War
 from the author, January, 2001" (Project Gutenberg ebook 3202, https://www.gutenberg.org/ebooks/3202), converted to
 LuceVoce's dictionary format, keeping for each root word the twelve related words closest to it.
 
+Wiktionary dictionaries (dict-fr-wiktionary, dict-de-wiktionary, dict-es-wiktionary, dict-it-wiktionary,
+dict-pt-wiktionary, dict-pl-wiktionary, dict-nl-wiktionary, added 25 Nov 2026): the words of the French, German,
+Spanish, Italian, Portuguese, Polish and Dutch Wiktionaries (Wiktionnaire, Wiktionary, Wikcionario, Wikizionario,
+Wikcionário, Wikisłownik, WikiWoordenboek), by their contributors, as extracted by kaikki.org with
+wiktextract (https://kaikki.org/), each word with its meanings, up to two short examples per meaning, its first
+pronunciation and its inflected forms, converted to LuceVoce's dictionary format. Creative Commons
+Attribution-ShareAlike 4.0 (https://creativecommons.org/licenses/by-sa/4.0/); Wiktionary's text is also under the GNU
+Free Documentation License. These packs are offered under the same licence and only ever downloaded.
+
 ONNX Runtime (release deps-1: onnxruntime-win-x64-1.31.1.zip), a build dependency of LuceVoce kept because its
 original release page stopped answering. MIT License, Copyright (c) Microsoft Corporation
 (https://opensource.org/license/mit); the archive carries its own LICENSE and ThirdPartyNotices.txt. Copied unchanged.

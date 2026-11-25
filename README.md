@@ -160,6 +160,11 @@ Polish, Dutch, Japanese and Chinese, both ways; CC BY-SA, made by `make_wikdict_
 Moby Thesaurus (dict-en-moby, public domain, made by `make_moby_pack.sh`): for each English root word, the twelve
 related words closest to it.
 
+Since 25 Nov 2026, seven Wiktionary dictionaries (dict-fr-wiktionary, dict-de-wiktionary, dict-es-wiktionary,
+dict-it-wiktionary, dict-pt-wiktionary, dict-pl-wiktionary, dict-nl-wiktionary; CC BY-SA 4.0, made by
+`make_kaikki_packs.sh` from kaikki.org's extracts): each language's own Wiktionary, the meanings written in that
+language, with examples, the pronunciation and the forms of each word.
+
 - Licences: CC BY 3.0, ODC-BY, the WordNet licence and plWordNet's (Princeton's terms), all allowing use in a commercial
   product with credit; and CC BY-SA for the Portuguese, Romanian, Dutch, German and Ukrainian packs, which are
   adaptations shared under the same licence and never bundled in LuceVoce.
