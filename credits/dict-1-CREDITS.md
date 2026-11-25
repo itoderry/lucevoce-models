@@ -27,3 +27,8 @@ The Open Multilingual Wordnet 2.0: github.com/omwn/omw-data, release v2.0.
 
 A pack made from a CC BY-SA source is an adaptation and is shared under the same licence. LuceVoce never bundles them:
 each is downloaded only when its reader asks for it.
+
+Moby Thesaurus (dict-en-moby, added 24 Nov 2026): Moby Thesaurus II by Grady Ward, "Public Domain material by grant
+from the author, January, 2001" (Project Gutenberg ebook 3202, gutenberg.org/ebooks/3202; the file files.zip, SHA-256
+3a54e61dd3b4153313e00c3113bda1e939af505d1336a350a0fd93a80538a6d8). Changed: for each root word, only the twelve related
+words closest to it are kept (LuceVoce's `tools/dict_build/make_moby_pack.sh` and `src/dict/thesaurus.cpp`).

@@ -100,6 +100,10 @@ Polish, Dutch, Japanese and Chinese, in both directions (eighteen packs, dict-wd
 The data is from Wiktionary through DBnary, offered by WikDict under Creative Commons BY-SA; the packs are share-alike
 and only ever downloaded.
 
+Moby Thesaurus (dict-en-moby, added 24 Nov 2026): Moby Thesaurus II by Grady Ward, "Public Domain material by grant
+from the author, January, 2001" (Project Gutenberg ebook 3202, https://www.gutenberg.org/ebooks/3202), converted to
+LuceVoce's dictionary format, keeping for each root word the twelve related words closest to it.
+
 ONNX Runtime (release deps-1: onnxruntime-win-x64-1.31.1.zip), a build dependency of LuceVoce kept because its
 original release page stopped answering. MIT License, Copyright (c) Microsoft Corporation
 (https://opensource.org/license/mit); the archive carries its own LICENSE and ThirdPartyNotices.txt. Copied unchanged.

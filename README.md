@@ -155,6 +155,11 @@ with its licence and credit inside, made by LuceVoce's `tools/dict_build/make_pa
 A synset without a definition of its own takes the Open English WordNet's (CC BY 4.0), marked "(English)". The sources,
 licences and changes are in `credits/dict-1-CREDITS.md`.
 
+Also eighteen bilingual dictionaries from WikDict (dict-wd-*, English with French, German, Spanish, Italian, Portuguese,
+Polish, Dutch, Japanese and Chinese, both ways; CC BY-SA, made by `make_wikdict_packs.sh`) and, since 24 Nov 2026, the
+Moby Thesaurus (dict-en-moby, public domain, made by `make_moby_pack.sh`): for each English root word, the twelve
+related words closest to it.
+
 - Licences: CC BY 3.0, ODC-BY, the WordNet licence and plWordNet's (Princeton's terms), all allowing use in a commercial
   product with credit; and CC BY-SA for the Portuguese, Romanian, Dutch, German and Ukrainian packs, which are
   adaptations shared under the same licence and never bundled in LuceVoce.
