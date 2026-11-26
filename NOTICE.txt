@@ -4,6 +4,9 @@ The seven models in this archive are Kokoro-82M (hexgrad/Kokoro-82M, https://hug
 Apache License 2.0) converted to Core ML with laishere/kokoro-coreml
 (https://github.com/laishere/kokoro-coreml, commit 484907db6a8347a6afb6e7b86850ea2878c6a3fb, Apache License 2.0)
 and compiled with Xcode's coremlcompiler. LuceVoce's script for it: tools/kokoro_coreml/convert.sh.
+Release kokoro-coreml-2 (LuceVoce 0.129.1 on) makes one change to the conversion: in the noise model's STFT, where
+the imaginary part is exactly 0 and the real part negative, the phase is pi (as PyTorch gives it) rather than Core
+ML's 0. Release kokoro-coreml-1 was converted without changes.
 
 Licensed under the Apache License, Version 2.0: https://www.apache.org/licenses/LICENSE-2.0
 

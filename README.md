@@ -4,7 +4,25 @@ Model files that LuceVoce, an app that reads books aloud, downloads on request. 
 repository's releases; the repository itself holds this description, the licence, the notices (`NOTICE.txt`) and
 the credits of each release (`credits/`, the newest copy of a release's `CREDITS.md`).
 
+## kokoro-coreml-2
+
+Release: [kokoro-coreml-2](https://github.com/itoderry/lucevoce-models/releases/tag/kokoro-coreml-2)
+
+`kokoro-coreml-2.zip` replaces kokoro-coreml-1 from LuceVoce 0.129.1: the same seven compiled models of Kokoro-82M for
+Core ML, converted again with one change. In the noise model's STFT, where the imaginary part is exactly 0 and the
+real part negative, the phase is now pi, as PyTorch gives it, rather than Core ML's 0; with 0, every voice sounded
+thinner and brighter on the Neural Engine than on the CPU.
+
+| | |
+|---|---|
+| Size | 76,959,666 bytes |
+| SHA-256 | `c57fd1987c47e9024ef0bef18dd2519c76a9a6e8f61989a567e6633669e869e8` |
+
+Its origin, licence and credits are those of kokoro-coreml-1 below; `NOTICE.txt` inside states the change.
+
 ## kokoro-coreml-1
+
+kokoro-coreml-1 is what LuceVoce before 0.129.1 downloads; it stays for those versions.
 
 Release: [kokoro-coreml-1](https://github.com/itoderry/lucevoce-models/releases/tag/kokoro-coreml-1)
 
